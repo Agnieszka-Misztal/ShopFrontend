@@ -1,0 +1,25 @@
+<h1>Nasze książki</h1>
+<div class="container">
+<table class ="table">
+  <thead>
+      <tr>
+         
+          <th>title</th>
+          <th>autor</th>
+          <th>description</th>
+          <th>price</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let book of books">
+        
+        <td>{{book.title | uppercase}}</td>
+        <td>{{book.autor}}</td>
+        <td>{{book.description}}</td>
+        <td>{{book.price}}</td>
+      </tr>
+
+    </tbody>
+ 
+</table>
+</div>

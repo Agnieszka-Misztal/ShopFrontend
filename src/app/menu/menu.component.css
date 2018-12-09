@@ -1,0 +1,9 @@
+.navbar-dark .navbar-nav .nav-link{
+    color:rgb(95, 90, 20);
+    font: bold;
+    font-size: 20px
+
+}
+.navbar{
+    background: rgb(206, 149, 80) !important;
+}
