@@ -9,8 +9,8 @@
       </ul>
 
       <ul class="navbar-nav navbar-collapse justify-content-end">
-          <li><a routerLink="/login" class="nav-link">Zaloguj się</a></li>
-          <li><a routerLink="/adduser" class="nav-link">Wyloguj się</a></li>
+          <li><a  *ngIf="!hardcodedAtuthenticationService.isUserLoggedIn()" routerLink="/login" class="nav-link">Zaloguj się</a></li>
+          <li><a *ngIf="hardcodedAtuthenticationService.isUserLoggedIn()" routerLink="/logout" class="nav-link">Wyloguj się</a></li>
           
         </ul>
     

@@ -5,9 +5,29 @@
 </div>
     <br>
     <br>
-<div>
-     <a routerLink="/books">NOWOŚCI</a>
+    <div class="container">
+        Clik here
+        <button (click)="getWelcomeMessage()" class="btn btn-success">Get Welcome Message</button>
+        </div>
+        <div class="container" *ngIf="titleFromService">
+
+           {{titleFromService}}
+            </div>
+    <div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6">
+            
+            <a routerLink="/books">NOWOŚCI</a>
+            <br>
+            <a routerLink="/books">PROMOCJE</a>
+            
+        </div>
+        <div class="col-sm-6">
+                <a routerLink="/books">NOWOŚCI</a>
+        </div>
+     </div>
+     
 </div>
-<div>
-    <a routerLink="/books">PROMOCJE</a>
+
 </div>

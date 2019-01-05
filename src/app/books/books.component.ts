@@ -28,13 +28,7 @@ export class BooksComponent implements OnInit {
    
 
   ]
-  // book = {
-  //   id : 1,
-  //   title : 'ksiazka',
-  //   autor : 'zenek zielony',
-  //   description: 'brak uszkodzen',
-  //   price: 11.0
-  // }
+ 
   constructor() { }
 
   ngOnInit() {
